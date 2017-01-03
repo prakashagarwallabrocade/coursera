@@ -1,6 +1,6 @@
 (function(){
   'use sctrict';
-  
+
   angular.module('ShoppingListCheckOff',[])
   .controller('ToBuyController',ToBuyController)
   .controller('AlreadyBoughtController',AlreadyBoughtController)
@@ -30,11 +30,11 @@ toBuy.buyItem= function(itemIndex){
 function ShoppingListCheckOffService(){
 var service= this;
 var toBuy =[
-  { name: "cookies 1", quantity: 1 },
-  { name: "cookies 2", quantity: 2 },
-  { name: "cookies 3", quantity: 3 },
-  { name: "cookies 4", quantity: 4 },
-  { name: "cookies 5", quantity: 5 }
+  { name: "cookies1", quantity: 1 },
+  { name: "cookies2", quantity: 2 },
+  { name: "cookies3", quantity: 3 },
+  { name: "cookies4", quantity: 4 },
+  { name: "cookies5", quantity: 5 }
 
 ];
 var bought =[];
